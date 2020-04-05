@@ -1,0 +1,291 @@
+*{
+    
+    font-family: 'Spectral', serif;
+}
+
+header{
+    padding: 0 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    color: rgb(223, 172, 105);
+    
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(223, 172, 105);
+    letter-spacing: 5px;
+    padding: 20px;
+    
+
+    
+}
+
+nav a:hover{
+    color: rgb(136, 84, 15);
+}
+
+.insta{
+  font-size: 25px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(../img/aline.jpg);
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.box1{
+
+        /* The image used */
+        background-image: url(../img/wall1.jfif);
+        transform: rotate();
+      
+        /* Set a specific height */
+        min-height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.centro{
+    
+    width: 40%;
+    padding: 10px;
+    height: 800px;
+    background-color: a rgb(255, 243, 231);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    
+}
+
+.centro h2{
+    font-size: 16px;
+    text-align: center;
+    z-index: 4;
+    top: 300px;
+    position: absolute;
+
+
+    
+}
+
+
+.white img{
+    height: 450px;
+    width: 300px;
+    z-index: 2;
+    position: absolute;
+    left: 150px;
+    bottom: 250px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transform: rotate(3deg);
+  
+}
+
+.sidewhite img{
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    left: 360px;
+    bottom: 200px;
+    z-index: 3;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transform: rotate(-3deg);
+    
+}
+
+.seta img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 4;
+    top: 400px;
+    right: 30px;
+    transform: scaleX(-1);
+    
+}
+.parallax2 {
+    /* The image used */
+    background-image: url(../img/aline3.jfif);
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.map{
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    top: 50px;
+}
+
+.map h3{
+    color: white;
+    text-transform: uppercase;
+    left: 150px;
+    position: absolute;
+    background-color: rgb(223, 172, 105);
+    top: 0px;
+}
+
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	position: absolute;
+	padding: 16px;
+    background: #F7F7F7;
+    right: 30px;
+    top: 80px;
+}
+.form-style-6 h1{
+	background: rgb(223, 172, 105);
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px rgb(202, 155, 92);
+	padding: 3%;
+	border: 1px solid rgb(223, 172, 105);
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: rgb(223, 172, 105);
+	border-bottom: 2px solid rgb(223, 172, 105);
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: rgb(196, 149, 89);
+}
+
+footer footer{
+    text-align: center;
+    color: white;
+}
+
+.redesdir{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    right: 30px;
+}
+
+.redesdir li{
+    list-style: none;
+}
+
+.redesdir li a{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    z-index: 10000000;}
+ 
