@@ -67,7 +67,7 @@ nav a:hover{
     background-size: cover;
 
 }
-.box1{
+#box1{
 
         /* The image used */
         background-image: url(../img/wall1.jfif);
@@ -172,8 +172,8 @@ footer{
 }
 
 .map h3{
-    color: white;
-    background: rgb(204, 169, 125);
+    color: rgb(223, 172, 105);
+    background: white;
     text-transform: uppercase;
     text-align: center;
     padding: 10px;
